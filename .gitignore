@@ -9,8 +9,6 @@ wasm32-unknown-unknown/
 # ============================================================
 # Environment / secrets
 # ============================================================
-.env
-.env.local
 .env.*.local
 
 # ============================================================
@@ -19,7 +17,6 @@ wasm32-unknown-unknown/
 .DS_Store
 Thumbs.db
 desktop.ini
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -132,3 +129,4 @@ cargo-audit.toml
 __pycache__/
 *.pyc
 .pytest_cache/
+config.bat
